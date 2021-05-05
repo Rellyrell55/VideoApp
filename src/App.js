@@ -9,11 +9,13 @@ function App() {
     <Router>
       <div className="App">
         <Navbar/>
-        <h1>
-          Videos
-        </h1>
-        <ReactPlayer url="https://www.youtube.com/watch?v=p_GNkc7Jm3Q"/>
-        <ReactPlayer url="https://www.youtube.com/watch?v=pf_eJzBjfdE"/>
+        <div className= 'content'>
+          <h1 className="header">
+            Videos
+          </h1>
+          <ReactPlayer className="video" url="https://www.youtube.com/watch?v=H-U257IbuUU"/>
+          <ReactPlayer className="video" url="https://www.youtube.com/watch?v=pf_eJzBjfdE"/>
+        </div>
       </div>
     </Router>
   );

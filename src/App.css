@@ -9,7 +9,29 @@
 }
 
 .App{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
   background-image: url('./images/IMG_1553.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
+  /* background-repeat: repeat-y; */
 }
+
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.video{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-bottom: 10%;
+  margin-top: 1.5em;
+}
+
+/* .header{
+  margin-left: 45%;
+  margin-top: 5%;
+} */
