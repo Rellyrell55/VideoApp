@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom'
 import ReactPlayer from 'react-player'
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <ReactPlayer className="video" url="https://www.youtube.com/watch?v=H-U257IbuUU"/>
           <ReactPlayer className="video" url="https://www.youtube.com/watch?v=pf_eJzBjfdE"/>
         </div>
+        <Footer/>
       </div>
     </Router>
   );
